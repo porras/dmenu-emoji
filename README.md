@@ -4,6 +4,10 @@ Search an emoji by name and copy it to the clipboard. Works best with a dmenu va
 
 If possible, it also sends a desktop notification for better user feedback.
 
+[![Screenshot of usage with rofi](https://i.imgur.com/rJ64CI3.png)](https://i.imgur.com/E6kJHGL.gifv)
+
+[Click the screenshot for a 4MB GIF of how the emoji in the header was added]
+
 ## Usage with i3
 
 Download `dmenu-emoji.sh`, make sure it's executable (`chmod + x <file>`), and store it somewhere in your home directory (or in your `$PATH` if you prefer). Assign a keystroke in your [i3](https://i3wm.org/) configuration:
