@@ -6,7 +6,7 @@ If possible, it also sends a desktop notification for better user feedback.
 
 ## Usage with i3
 
-Download `dmenu-emoji.sh` and store it somewhere in your home directory (or in your `$PATH` if you prefer). Assign a keystroke in your [i3](https://i3wm.org/) configuration and that's all:
+Download `dmenu-emoji.sh`, make sure it's executable (`chmod + x <file>`), and store it somewhere in your home directory (or in your `$PATH` if you prefer). Assign a keystroke in your [i3](https://i3wm.org/) configuration:
 
 ```
 # ~/.config/i3/config
@@ -14,7 +14,7 @@ Download `dmenu-emoji.sh` and store it somewhere in your home directory (or in y
 bindsym $mod+space exec path/to/dmenu-emoji.sh
 ```
 
-`dmenu-emoji.sh` is the only file you need to run it, the rest of the files in this repository are scripts to generate that one, which you don't need unless you want to modify it (PRs welcome!).
+`dmenu-emoji.sh` is the only file you need, the rest of the files in this repository are scripts to generate that one, which you don't need unless you want to modify it (PRs welcome!).
 
 ### Tweeking the `dmenu` command
 
