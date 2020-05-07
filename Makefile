@@ -2,6 +2,7 @@ default: dmenu-emoji.sh
 
 dmenu-emoji.sh: script.sh emoji.txt
 	@cat script.sh emoji.txt > $@
+	@sed -i "s/__GENERATED__/`date --rfc-3339=seconds -u`/" $@
 	@chmod +x $@
 	@du -sh $@
 

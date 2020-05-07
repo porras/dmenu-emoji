@@ -1,4 +1,9 @@
 #!/bin/bash
+# This files comes from:
+# https://github.com/porras/dmenu-emoji
+#
+# If this file includes emojis below "__DATA__" it is generated.
+# This file was generated: __GENERATED__
 
 set -e
 
