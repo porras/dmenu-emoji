@@ -36,5 +36,6 @@ bindsym $mod+space exec dmenu-emoji.sh list | rofi -dmenu -p 'Emoji: ' | dmenu-e
 * [rofimoji](https://github.com/fdw/rofimoji). Python-based, rofi only, can insert directly instead of copy&paste
 * [emoji-rofi-menu](https://github.com/rob-a-bolton/emoji-rofi-menu). Rofi only, can insert directly
 * [rofi-emoji](https://github.com/hatzel/rofi-emoji/). Python-based (but generates a bash script so Python is not used each time), rofi only, inserts-directly
+* [dmenu-fontawesome](https://github.com/4khi1/dmenu-fontawesome). Search an fontawesome icon by name and copy it to the clipboard.
 
 It takes very little time to write so there are probably more 😅
