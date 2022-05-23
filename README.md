@@ -1,5 +1,7 @@
 # dmenu-emoji 💃
 
+> This fork deletes the unprintable (multiple characters) emojis and adds the newest emojis from Unicode v14.0
+
 Search an emoji by name and copy it to the clipboard. Works best with a dmenu variant that does fuzzy search such as [rofi](https://github.com/DaveDavenport/rofi), but it's compatible with plain [dmenu](https://tools.suckless.org/dmenu/).
 
 If possible, it also sends a desktop notification for better user feedback.
