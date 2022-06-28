@@ -32,6 +32,7 @@ bindsym $mod+space exec dmenu-emoji.sh list | rofi -dmenu -p 'Emoji: ' | dmenu-e
 
 ## Similar scripts
 
+* [bemoji](https://github.com/marty-oehme/bemoji). Bash based, supports copying or typing emoji on both Wayland and X11. Remembers your favorite selections.
 * [emoji.sh](https://gist.github.com/markmandel/546fc099590f1c08fa936795ac9da143). One liner, requests emojis each time, no autocomplete
 * [rofimoji](https://github.com/fdw/rofimoji). Python-based, rofi only, can insert directly instead of copy&paste
 * [emoji-rofi-menu](https://github.com/rob-a-bolton/emoji-rofi-menu). Rofi only, can insert directly
