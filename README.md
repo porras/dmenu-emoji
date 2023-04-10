@@ -1,6 +1,6 @@
 # dmenu-emoji 💃
 
-Search an emoji by name and copy it to the clipboard. Works best with a dmenu variant that does fuzzy search such as [rofi](https://github.com/DaveDavenport/rofi), but it's compatible with plain [dmenu](https://tools.suckless.org/dmenu/).
+Search an emoticon by name and copy it to the clipboard. Works best with a dmenu variant that does fuzzy search such as [rofi](https://github.com/DaveDavenport/rofi), but it's compatible with plain [dmenu](https://tools.suckless.org/dmenu/).
 
 If possible, it also sends a desktop notification for better user feedback.
 
@@ -40,3 +40,5 @@ bindsym $mod+space exec dmenu-emoji.sh list | rofi -dmenu -p 'Emoji: ' | dmenu-e
 * [dmenu-fontawesome](https://github.com/4khi1/dmenu-fontawesome). Search an fontawesome icon by name and copy it to the clipboard.
 
 It takes very little time to write so there are probably more 😅
+
+This is a fork of dmenu-emoji and is basically the same but with emoticons instead :/
