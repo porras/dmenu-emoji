@@ -1,3 +1,7 @@
+# Note
+
+I no longer mantain this repository (or use this script). It works for all I know, but I'm using something else so I no longer mantain it. Feel free to keep using it if it works for you, fork it if you need to fix anything, or consider one of the alternatives (see below). For this reasons this repo is archived and read-only.
+
 # dmenu-emoji 💃
 
 Search an emoji by name and copy it to the clipboard. Works best with a dmenu variant that does fuzzy search such as [rofi](https://github.com/DaveDavenport/rofi), but it's compatible with plain [dmenu](https://tools.suckless.org/dmenu/).
